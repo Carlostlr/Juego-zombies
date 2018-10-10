@@ -1,0 +1,51 @@
+﻿
+<!-- bala (https://www.youtube.com/watch?v=8u1-JILEx5Y) banda sonora (https://www.youtube.com/watch?v=SLu_C9SHMFw)-->
+
+<!DOCTIPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./1.css"/>
+	<script src="./1.js"> </script>
+	<title>Zombis</title> 
+</head>
+	<body onkeydown="tecla(event)" onkeypress="tecla(event)" onkeyup="tecla1(event)">
+		<a href="index.html"> Volver al menu </a>
+		<a href="lienzo.html">&nbsp;&nbsp;&nbsp;&nbsp; Reiniciar juego </a>
+		<br/>
+		<br/>
+		<br/>
+		<h2 class="texto1">Puntos</h2>
+		<h2 class="texto3">Zombis</h2>
+			<div class="texto">
+				<center><p id="texto"> 0 </p></center>
+			</div>
+		<br/>
+			<div class="texto2">
+				<center><p id="zombi"> 0 </p></center>
+			</div>
+		<center><canvas id="lienzo1">
+		</canvas></center>
+		
+		<audio  id="disparo">
+  		<source src="./disparo.mp3">
+		</audio>
+		
+		<audio  id="zombiess">
+  		<source src="./zombi.mp3">
+		</audio>
+		
+		<audio src="./bso.mp3" autoplay loop>
+		</audio>
+		
+		<!-- 119 es la w pa ir palante-->
+		<!-- 32 es el espacio para disparar-->
+		<script>
+		inicio();
+		intervalo=setInterval(dibuja,90);
+		</script>
+		<div class="teclas">
+		<p>W para moverse hacia delante. </p>
+		<p> Espacio para disparar. </p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+﻿body{background-color:grey}
+.caja {background-image:url("./menu.jpg");width:60%;height:60%;border:solid 1px}
+.start {width:20%;height:20%;border:solid 1px;color:white}
+a:link{color:White;text-decoration:none}
+a:hover{color:White;text-decoration:none}
+a:visited{color:White;text-decoration:none}
+a:active{color:White;text-decoration:none}
+
+.texto{width:4%;height:5%;position:absolute;left:7%;top:22%;border:solid 1px;background-color:white}
+.texto2{width:4%;height:5%;position:absolute;left:7%;top:30%;border:solid 1px;background-color:white}
+.texto1{position:absolute;top:20%;}
+.texto3{position:absolute;top:28%}
+.teclas{position:absolute;left:0.5%;top:40%}
+canvas {width:60%;height:60%;border:solid 1px;background-color:black}
